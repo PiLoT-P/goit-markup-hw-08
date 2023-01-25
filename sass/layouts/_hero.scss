@@ -28,6 +28,8 @@
     @include desktope {
         background-image: linear-gradient(to right, var(--gradient-color), var(--gradient-color)), url(../images/Img-back-hero.jpg);
         // padding: 200px 452px;
+        padding-top: 200px;
+        padding-bottom: 200px;
         @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {

@@ -399,6 +399,8 @@ img {
 @media screen and (min-width: 1200px) {
   .hero {
     background-image: linear-gradient(to right, var(--gradient-color), var(--gradient-color)), url(../images/Img-back-hero.jpg);
+    padding-top: 200px;
+    padding-bottom: 200px;
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
