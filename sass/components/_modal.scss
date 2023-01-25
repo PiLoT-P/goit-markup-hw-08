@@ -13,8 +13,7 @@
 }
 
 .modal {
-    width: 450px;
-    min-height: 609px;
+    max-height: 609px;
     background-color: var(--white);
     border-radius: 4px;
     position: absolute;
@@ -24,9 +23,14 @@
     transition: transform var(--transition-property);
     padding: 40px;
 
+    @include tablet{
+        width: 450px;
+        height: 609px;
+    }
+
     @include desktope{
         width: 528px;
-        min-height: 581px;
+        height: 581px;
     }
 
     &-close {
@@ -157,6 +161,8 @@
     line-height: 1.16;
     letter-spacing: 0.01em;
 }
+
+
 
 .input-wrap {
     position: relative;

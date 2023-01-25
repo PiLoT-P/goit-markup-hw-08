@@ -201,6 +201,16 @@
     line-height: 1.25;
     letter-spacing: 0.03em;
 
+    &::placeholder{
+        color: var(--placeholder-footer-color);
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.01em;
+    }
+
     &:focus {
         border-color: var(--accent-color);
     }

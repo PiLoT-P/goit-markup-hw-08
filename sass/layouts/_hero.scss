@@ -60,7 +60,10 @@
         padding: 10px 32px;
         display: inline-block;
         border-radius: 4px;
-        min-width: 216px;
+        min-width: 200px;
+        @include desktope{
+            min-width: 216px;
+        }
 
         background-color: var(--accent-color);
         color: var(--white);

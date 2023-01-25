@@ -1,6 +1,14 @@
 .team {
     background-color: var(--background-color-two);
 
+    .section-title{
+        font-size: 28px;
+        line-height: 1.18;
+        @include desktope{
+            font-size: 36px;
+            line-height: 1.16;
+        }
+    }
     &-list {
         margin: 0px;
         padding: 0px;

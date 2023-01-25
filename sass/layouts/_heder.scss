@@ -107,13 +107,18 @@
         color: var(--primery-text-color);
 
         font-weight: 500;
-        line-height: 1.14;
+        font-size: 12px;
+        line-height: 1.16;
         letter-spacing: 0.02em;
         text-decoration: none;
 
         &:hover,
         &:focus {
             color: var(--accent-color);
+        }
+        @include desktope{
+            font-size: 14px;
+            line-height: 1.14;
         }
     }
 
@@ -138,6 +143,7 @@
     .tel-text {
         margin-left: 10px;
     }
+
 }
 
 .icon {
@@ -218,6 +224,10 @@
         letter-spacing: 0.02em;
         text-decoration: none;
 
+        &.current{
+            color: var(--accent-color);
+        }
+
         &:hover,
         &:focus {
             color: var(--accent-color);
@@ -230,6 +240,9 @@
     margin: 0;
     padding: 0;   
     padding-bottom: 64px;
+    .tel-text{
+        color: var(--accent-color);
+    }
     .mob-contacts__item:not(:last-child){
         padding-bottom: 32px;
     }
@@ -257,6 +270,7 @@
     margin: 0;
     padding: 0;
     display: flex;
+    flex-wrap: wrap;
     padding-bottom: 48px;
 
     .mob-social__item{
