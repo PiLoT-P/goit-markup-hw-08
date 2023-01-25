@@ -1,0 +1,46 @@
+.list-logo {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+    gap: 30px;
+
+    .link {
+        display: block;
+        padding: 16px 32px;
+        border: 1px solid #AFB1B8;
+        border-radius: 4px;
+        transition: border-color var(--transition-property), color var(--transition-property);
+
+        color: var(--icon-color);
+
+        &:hover,
+        &:focus {
+            border-color: var(--accent-color);
+            color: var(--accent-color);
+        }
+
+    }
+
+    .item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        @media screen and (min-width: 480px) {
+            width: calc((100% - 30px)/2);
+        }
+        @media screen and (min-width: 768px) {
+            width: calc((100% - 60px)/3);
+        }
+    
+        @media screen and (min-width: 1200px) {
+            width: calc((100% - 150px)/6);
+        }
+    }
+
+    .icon {
+        fill: currentColor;
+        
+    }
+}

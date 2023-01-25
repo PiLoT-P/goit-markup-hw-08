@@ -1,0 +1,51 @@
+.servises {
+    padding-top: 0px;
+    display: none;
+    @include desktope {
+        display: block;
+    }
+}
+
+.img-list {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+
+    .item {
+        position: relative;
+
+        &:not(:last-child) {
+            margin-right: 30px;
+        }
+    }
+
+    .img {
+        display: block;
+        margin: 0px;
+        padding: 0px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .img-list-text {
+        position: absolute;
+        width: 100%;
+        left: 0px;
+        bottom: 0px;
+
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+        padding-top: 27px;
+        padding-bottom: 27px;
+
+        background-color: var(--img-list-background-color);
+        color: var(--white);
+
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        text-transform: uppercase;
+    }
+}
