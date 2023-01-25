@@ -303,3 +303,8 @@
     }
 }
 
+.exit{
+    @include tablet{
+        display: none;
+    }
+}
