@@ -389,7 +389,6 @@ img {
 @media screen and (min-width: 768px) {
   .hero {
     background-image: linear-gradient(to right, var(--gradient-color), var(--gradient-color)), url(../images/Img-back-hero-tabl.jpg);
-    padding: 118px 204px;
   }
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
@@ -400,7 +399,6 @@ img {
 @media screen and (min-width: 1200px) {
   .hero {
     background-image: linear-gradient(to right, var(--gradient-color), var(--gradient-color)), url(../images/Img-back-hero.jpg);
-    padding: 200px 452px;
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {

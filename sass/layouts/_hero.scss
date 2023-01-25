@@ -18,7 +18,7 @@
         }
     @include tablet{
         background-image: linear-gradient(to right, var(--gradient-color), var(--gradient-color)), url(../images/Img-back-hero-tabl.jpg);
-        padding: 118px 204px;
+        // padding: 118px 204px;
         @media (min-device-pixel-ratio: 2),
             (min-resolution: 192dpi),
             (min-resolution: 2dppx) {
@@ -27,7 +27,7 @@
     }
     @include desktope {
         background-image: linear-gradient(to right, var(--gradient-color), var(--gradient-color)), url(../images/Img-back-hero.jpg);
-        padding: 200px 452px;
+        // padding: 200px 452px;
         @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
