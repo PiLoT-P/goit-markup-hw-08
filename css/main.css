@@ -593,6 +593,22 @@ img {
   fill: currentColor;
 }
 
+@media screen and (min-width: 1200px) {
+  .icon-tell {
+    height: 16px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .icon-email {
+    width: 16px;
+    height: 12px;
+  }
+}
+
+.mob {
+  z-index: 5;
+}
 @media screen and (min-width: 768px) {
   .mob {
     display: none;

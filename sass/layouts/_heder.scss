@@ -148,9 +148,25 @@
 
 .icon {
     fill: currentColor;
+
 }
 
+.icon-tell{
+    @include desktope{
+        height: 16px;
+    }
+}
+
+.icon-email {
+    @include desktope {
+        width: 16px;
+        height: 12px;
+    }
+}
+
+
 .mob{
+    z-index: 5;
     @include tablet{
         display: none;
     }
